@@ -1,0 +1,17 @@
+.slide-SLIDENUMBER {
+  background-color: #662288;
+  color: white;
+  text-shadow: .2px .2px #442222;
+}
+
+.slide-SLIDENUMBER h2 {
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  font-weight: normal;
+}
+
+.slide-SLIDENUMBER h3 {
+  color: rgba(255, 255, 255, 0.2);
+  text-align: center;
+  font-weight: normal;
+}

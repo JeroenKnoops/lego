@@ -1,0 +1,2136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Slide</title>
+    <style>*{margin:0;padding:0;box-sizing:border-box}#slide{display:none}.slide{white-space:nowrap}.slide-content{align-self:center}@media screen{body{position:absolute;top:50%;left:50%}.slide-4x3{width:1024px;height:768px;margin:-384px 0 0 -512px}.slide-16x9{width:1024px;height:576px;margin:-288px 0 0 -512px}.slide-16x10{width:1024px;height:640px;margin:-320px 0 0 -512px}.slide{position:absolute;width:100%;height:100%;display:flex;justify-content:center;overflow:hidden}}</style>
+    <style>@media print {
+	body { transform: none !important; }
+	h1 { font-size: 1.8rem; line-height: 1.5;  letter-spacing: -.05rem; font-weight: 300; }
+	.slide-root { width: 100%; display: flex; flex-wrap: wrap; align-items: stretch; }
+	.slide-content { transform: none !important; }
+	.slide {
+		display: flex;
+		justify-content: center;
+		flex: 1;
+		padding: 0.5rem;
+		margin: 0.5rem 0.5rem 4rem 0.5rem;
+		border: 1px solid rgba(0, 0, 0, 0.2);
+		visibility: visible !important;
+	}
+}</style>
+    <style >@font-face {
+  font-family: 'Lintel';
+  src: url(/20190505-slides-open-source-bothell/static/fonts/Lintel_Reg-webfont.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'PrintChar';
+  src: url(/20190505-slides-open-source-bothell/static/fonts/PrintChar21.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Iosevka';
+  src: url(/20190505-slides-open-source-bothell/static/fonts/iosevka-regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'CentraleSans';
+  src:  url('/20190505-slides-open-source-bothell/static/fonts/CentraleSans-Light.woff2') format('woff2'),  url('/20190505-slides-open-source-bothell/static/fonts/CentraleSans-Light.woff2') format('woff');
+  font-weight: 200;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'CentraleSans';
+  src:  url('/20190505-slides-open-source-bothell/static/font/CentraleSans-Bold.woff2') format('woff2'), url('/20190505-slides-open-source-bothell/static/font/CentraleSans-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CentraleSansCondensed';
+  src:  url('/20190505-slides-open-source-bothell/static/font/CentraleSansCnd-Bold.woff2') format('woff2'), url('/20190505-slides-open-source-bothell/static/font/CentraleSans-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+body {
+  font-family: CentraleSans, Fallback, sans-serif !important;
+  background-color: #EFEFEF;
+  color: #222;
+  text-shadow: .2px .2px #eecccc;
+}
+p {
+  text-align: center;
+  font-family: CentraleSans, Fallback, sans-serif !important;
+}
+
+.slide {
+  background-image: url("/20190505-slides-open-source-bothell/static/images/philips-logo.png");
+  background-repeat: no-repeat;
+  background-position: right 20px bottom 20px;
+  background-size: 5%, auto;
+}
+.slide strong {
+  color: purple;
+}
+.slide h1 {
+  text-align: center;
+  font-family: CentraleSans, Fallback, sans-serif !important;
+  font-weight: 400;
+  font-size: 2.6rem;
+}
+.slide h2 {
+  text-align: center;
+  font-family: CentraleSans, Fallback, sans-serif !important;
+  font-weight: 300;
+  font-size: 2.4rem;
+}
+.slide h6 {
+  font-family: CentraleSans, Fallback, sans-serif !important;
+  text-align: center;
+  font-size: 0.5rem;
+}
+.slide pre {
+  font-family: Iosevka;
+  background-color: #333;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.slide-0 {
+  background-color: #0094cc;
+  color: white;
+  text-shadow: .2px .2px #442222;
+}
+
+
+.slide-0 h3 {
+  color: yellow;
+}
+
+.slide-1 {
+  background-color: #00cc94;
+  color: white;
+  text-shadow: .2px .2px #442222;
+}
+
+.slide-2 {
+  background-color: #ff9400;
+  color: white;
+  text-shadow: .2px .2px #442222;
+}
+
+
+.slide-3 {
+  background-color: #ff9400;
+  color: white;
+  text-shadow: .2px .2px #442222;
+}
+
+
+.slide-4 {
+  background-color: #00cc94;
+  color: white;
+  text-shadow: .2px .2px #442222;
+}
+
+.slide-5 {
+  background-color: #00cc94;
+  color: white;
+  text-shadow: .2px .2px #442222;
+}
+
+.slide-6 {
+  background-color: #00cc94;
+  color: white;
+  text-shadow: .2px .2px #442222;
+}
+
+.slide-7 {
+  background-color: #ff9400;
+  color: white;
+  text-shadow: .2px .2px #442222;
+}
+
+
+.slide-8 {
+  background-color: #00cc94;
+  color: white;
+  text-shadow: .2px .2px #442222;
+}
+
+.slide-9 {
+  background-color: #ff9400;
+  color: white;
+  text-shadow: .2px .2px #442222;
+  text-align: left;
+}
+
+.slide-9 h2 {
+  text-align: left;
+  color: #aa5500
+}
+
+.slide-9 h3 {
+  text-align: left;
+  color: #aa5500
+}
+
+.slide-9 strong {
+  color: #aa5500
+}
+
+
+
+
+.slide-10 {
+  background-color: #ff9400;
+  color: white;
+  text-shadow: .2px .2px #442222;
+  text-align: left;
+}
+
+.slide-10 h2 {
+  text-align: left;
+  color: #aa5500
+}
+
+.slide-10 h3 {
+  text-align: left;
+  color: #aa5500
+}
+
+.slide-10 strong {
+  color: #aa5500
+}
+
+
+
+
+.slide-11 {
+  background-color: #ff9400;
+  color: white;
+  text-shadow: .2px .2px #442222;
+  text-align: left;
+}
+
+.slide-11 h2 {
+  text-align: left;
+  color: #aa5500
+}
+
+.slide-11 h3 {
+  text-align: left;
+  color: #aa5500
+}
+
+.slide-11 strong {
+  color: #aa5500
+}
+
+
+
+
+.slide-12 {
+  background-color: #ff9400;
+  color: white;
+  text-shadow: .2px .2px #442222;
+  text-align: left;
+}
+
+.slide-12 h2 {
+  text-align: left;
+  color: #aa5500
+}
+
+.slide-12 h3 {
+  text-align: left;
+  color: #aa5500
+}
+
+.slide-12 strong {
+  color: #aa5500
+}
+
+
+
+
+.slide-13 {
+  background-color: #ff9400;
+  color: white;
+  text-shadow: .2px .2px #442222;
+  text-align: left;
+}
+
+.slide-13 h2 {
+  text-align: left;
+  color: #aa5500
+}
+
+.slide-13 h3 {
+  text-align: left;
+  color: #aa5500
+}
+
+.slide-13 strong {
+  color: #aa5500
+}
+
+
+
+
+.slide-14 {
+  background-color: #ff9400;
+  color: white;
+  text-shadow: .2px .2px #442222;
+  text-align: left;
+}
+
+.slide-14 h2 {
+  text-align: left;
+  color: #aa5500
+}
+
+.slide-14 h3 {
+  text-align: left;
+  color: #aa5500
+}
+
+.slide-14 strong {
+  color: #aa5500
+}
+
+
+
+
+.slide-15 {
+  background-color: #ff9400;
+  color: white;
+  text-shadow: .2px .2px #442222;
+  text-align: left;
+}
+
+.slide-15 h2 {
+  text-align: left;
+  color: #aa5500
+}
+
+.slide-15 h3 {
+  text-align: left;
+  color: #aa5500
+}
+
+.slide-15 strong {
+  color: #aa5500
+}
+
+
+
+
+.slide-16 {
+  background-color: #ff9400;
+  color: white;
+  text-shadow: .2px .2px #442222;
+  text-align: left;
+}
+
+.slide-16 h2 {
+  text-align: left;
+  color: #aa5500
+}
+
+.slide-16 h3 {
+  text-align: left;
+  color: #aa5500
+}
+
+.slide-16 strong {
+  color: #aa5500
+}
+
+
+
+
+.slide-17 {
+  background-color: #ff9400;
+  color: white;
+  text-shadow: .2px .2px #442222;
+  text-align: left;
+}
+
+.slide-17 h2 {
+  text-align: left;
+  color: #aa5500
+}
+
+.slide-17 h3 {
+  text-align: left;
+  color: #aa5500
+}
+
+.slide-17 strong {
+  color: #aa5500
+}
+
+
+
+
+.slide-18 {
+  background-color: #ff9400;
+  color: white;
+  text-shadow: .2px .2px #442222;
+  text-align: left;
+}
+
+.slide-18 h2 {
+  text-align: left;
+  color: #aa5500
+}
+
+.slide-18 h3 {
+  text-align: left;
+  color: #aa5500
+}
+
+.slide-18 strong {
+  color: #aa5500
+}
+
+
+
+
+.slide-19 {
+  background-color: #ff9400;
+  color: white;
+  text-shadow: .2px .2px #442222;
+  text-align: left;
+}
+
+.slide-19 h2 {
+  text-align: left;
+  color: #aa5500
+}
+
+.slide-19 h3 {
+  text-align: left;
+  color: #aa5500
+}
+
+.slide-19 strong {
+  color: #aa5500
+}
+
+
+
+
+.slide-20 {
+background: url("/20190505-slides-open-source-bothell/static/images/open.png");
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center;
+}
+
+.slide-21 {
+  background-color: #00cc94;
+  color: white;
+  text-shadow: .2px .2px #442222;
+}
+
+.slide-22 {
+  background-color: #00cc94;
+  color: white;
+  text-shadow: .2px .2px #442222;
+}
+
+.slide-23 {
+  background-color: #00cc94;
+  color: white;
+  text-shadow: .2px .2px #442222;
+}
+
+.slide-24 {
+  background-color: #00cc94;
+  color: white;
+  text-shadow: .2px .2px #442222;
+}
+
+.slide-25 {
+  background-color: #00cc94;
+  color: white;
+  text-shadow: .2px .2px #442222;
+}
+
+.slide-26 {
+  background-color: #00cc94;
+  color: white;
+  text-shadow: .2px .2px #442222;
+}
+
+.slide-27 {
+  background-color: #00cc94;
+  color: white;
+  text-shadow: .2px .2px #442222;
+}
+
+.slide-28 {
+  background-color: #cc9400;
+  color: white;
+  text-shadow: .3px .3px #442222;
+}
+
+.slide-28 h2 {
+  text-align: left;
+}
+
+.slide-29 {
+background: url("/20190505-slides-open-source-bothell/static/images/github-homepage.png");
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center;
+}
+
+.slide-30 {
+  background-color: #ffffff;
+  color: purple;
+  text-shadow: .2px .2px #cccccc;
+}
+
+.slide-31 {
+  background-color: #cc9400;
+  color: white;
+  text-shadow: .3px .3px #442222;
+}
+
+.slide-31 h2 {
+  text-align: left;
+}
+
+.slide-32 {
+  background-color: #cc9400;
+  color: white;
+  text-shadow: .3px .3px #442222;
+}
+
+.slide-32 h2 {
+  text-align: left;
+}
+
+.slide-33 {
+  background-color: #cc9400;
+  color: white;
+  text-shadow: .3px .3px #442222;
+}
+
+.slide-33 h2 {
+  text-align: left;
+}
+
+.slide-34 {
+  background-color: #cc9400;
+  color: white;
+  text-shadow: .3px .3px #442222;
+}
+
+.slide-34 h2 {
+  text-align: left;
+}
+
+.slide-35 {
+  background-color: #cc9400;
+  color: white;
+  text-shadow: .3px .3px #442222;
+}
+
+.slide-35 h2 {
+  text-align: left;
+}
+
+.slide-36 {
+  background-color: #cc9400;
+  color: white;
+  text-shadow: .3px .3px #442222;
+}
+
+.slide-36 h2 {
+  text-align: left;
+}
+
+.slide-37 {
+  background-color: #00cc94;
+  color: white;
+  text-shadow: .2px .2px #442222;
+}
+
+.slide-38 {
+background: url("/20190505-slides-open-source-bothell/static/images/overview.png");
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center;
+}
+
+.slide-38 {
+  background-color: #00cc94;
+  color: white;
+  text-shadow: .2px .2px #442222;
+}
+
+.slide-39 {
+  background-color: green;
+  color: white;
+  text-shadow: .2px .2px #442222;
+}
+
+.slide-39 h2 {
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  font-weight: normal;
+}
+
+.slide-39 h3 {
+  color: rgba(255, 255, 255, 0.2);
+  text-align: center;
+  font-weight: normal;
+}
+
+.slide-40 {
+background: url("/20190505-slides-open-source-bothell/static/images/example-cogito.png");
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center;
+}
+
+.slide-41 {
+background: url("/20190505-slides-open-source-bothell/static/images/example-infrastructure.png");
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center;
+}
+
+.slide-42 {
+background: url("/20190505-slides-open-source-bothell/static/images/example-EmbeddedInfralib.png");
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center;
+}
+
+.slide-43 {
+background: url("/20190505-slides-open-source-bothell/static/images/example-hsdp.png");
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center;
+}
+
+.slide-44 {
+background: url("/20190505-slides-open-source-bothell/static/images/example-dockerimages.png");
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center;
+}
+
+.slide-45 {
+background: url("/20190505-slides-open-source-bothell/static/images/example-interoperability.png");
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center;
+}
+
+.slide-46 {
+background: url("/20190505-slides-open-source-bothell/static/images/example-smartsleep-2.png");
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center;
+}
+
+.slide-47 {
+background: url("/20190505-slides-open-source-bothell/static/images/example-smartsleep-1.png");
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center;
+}
+
+.slide-48 {
+  background-color: #94cc00;
+  color: white;
+  text-shadow: .2px .2px #442222;
+}
+
+.slide-49 {
+background: url("/20190505-slides-open-source-bothell/static/images/overview-github.png");
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center;
+}
+
+.slide-50 {
+  background-color: #00cc94;
+  color: white;
+  text-shadow: .2px .2px #442222;
+}
+
+.slide-52 {
+background: url("/20190505-slides-open-source-bothell/static/images/how-to-open-source-1.png");
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center;
+}
+
+.slide-54 {
+background: url("/20190505-slides-open-source-bothell/static/images/how-to-open-source-2.png");
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center;
+}
+
+.slide-55 {
+  background-color: #00cc94;
+  color: white;
+  text-shadow: .2px .2px #442222;
+}
+
+.slide-56 {
+  background-color: #00cc94;
+  color: white;
+  text-shadow: .2px .2px #442222;
+}
+
+.slide-57 {
+  background-color: #00cc94;
+  color: white;
+  text-shadow: .2px .2px #442222;
+}
+
+.slide-58 {
+  background-color: #00cc94;
+  color: white;
+  text-shadow: .2px .2px #442222;
+}
+
+.slide-59 {
+background: url("/20190505-slides-open-source-bothell/static/images/how-to-open-source-3.png");
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center;
+}
+
+.slide-60 {
+background: url("/20190505-slides-open-source-bothell/static/images/how-to-open-source-4.png");
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center;
+}
+
+.slide-61 {
+background: url("/20190505-slides-open-source-bothell/static/images/how-to-open-source-5.png");
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center;
+}
+
+.slide-62 {
+  background-color: #ff9400;
+  color: white;
+  text-shadow: .2px .2px #442222;
+}
+
+
+.slide-63 {
+  background-color: #00cc94;
+  color: white;
+  text-shadow: .2px .2px #442222;
+}
+
+.slide-64 {
+  background-color: #ff9400;
+  color: white;
+  text-shadow: .2px .2px #442222;
+}
+
+
+.slide-65 {
+  background-color: #00cc94;
+  color: white;
+  text-shadow: .2px .2px #442222;
+}
+
+.slide-66 {
+  background-color: #ff9400;
+  color: white;
+  text-shadow: .2px .2px #442222;
+}
+
+
+.slide-67 {
+  background-color: #00cc94;
+  color: white;
+  text-shadow: .2px .2px #442222;
+}
+
+.slide-68 {
+  background-color: #ff9400;
+  color: white;
+  text-shadow: .2px .2px #442222;
+}
+
+
+.slide-69 {
+  background-color: #94cc00;
+  color: white;
+  text-shadow: .2px .2px #442222;
+}
+
+.slide-70 {
+  background-color: #94cc00;
+  color: white;
+  text-shadow: .2px .2px #442222;
+}
+
+.slide-71 {
+  background-color: #94cc00;
+  color: white;
+  text-shadow: .2px .2px #442222;
+}
+
+.slide-72 {
+  background-color: #94cc00;
+  color: white;
+  text-shadow: .2px .2px #442222;
+}
+
+.slide-73 {
+  background-color: #94cc00;
+  color: white;
+  text-shadow: .2px .2px #442222;
+}
+
+.slide-75 {
+  background-color: #ff3300;
+  color: white;
+  text-shadow: .2px .2px #442222;
+}
+
+.slide-76 {
+  background-color: #ff3300;
+  color: white;
+  text-shadow: .2px .2px #442222;
+}
+
+.slide-77 {
+  background-color: #ff3300;
+  color: white;
+  text-shadow: .2px .2px #442222;
+}
+
+.slide-78 {
+  background-image: url("/20190505-slides-open-source-bothell/static/images/philips_open_source.png");
+  background-repeat: no-repeat;
+  background-position: right 20px bottom 20px;
+  background-size: 5%, auto;
+}
+
+.slide-79 {
+  background-color: purple;
+  color: white;
+  text-shadow: .2px .2px #234252;
+  background-image: url("/20190505-slides-open-source-bothell/static/images/philips_open_source.png");
+  background-repeat: no-repeat;
+  background-position: right 20px bottom 20px;
+  background-size: 5%, auto;
+}
+
+.slide-79 strong {
+  color: #ff77ff;
+}
+
+.slide-79 h2 {
+  font-size: 1em;
+}
+
+.slide-79 h1 {
+  color: #ff77ff;
+}
+
+.slide-80 {
+  background-color: #0094cc;
+  color: white;
+  text-shadow: .2px .2px #442222;
+}
+
+
+.slide-80 h3 {
+  color: yellow;
+}
+
+.slide-81 {
+  background-image: url("/20190505-slides-open-source-bothell/static/images/philips_open_source.png");
+  background-repeat: no-repeat;
+  background-position: right 20px bottom 20px;
+  background-size: 5%, auto;
+}
+
+.slide-82 {
+  background-color: #ff77ff;
+  color: white
+  text-shadow: .2px .2px #000000;
+  background-image: url("/20190505-slides-open-source-bothell/static/images/philips_open_source.png");
+  background-repeat: no-repeat;
+  background-position: right 20px bottom 20px;
+  background-size: 5%, auto;
+}
+
+.slide-83 {
+  background-color: #ff77ff;
+  color: white
+  text-shadow: .2px .2px #000000;
+  background-image: url("/20190505-slides-open-source-bothell/static/images/philips_open_source.png");
+  background-repeat: no-repeat;
+  background-position: right 20px bottom 20px;
+  background-size: 5%, auto;
+}
+
+.slide-84 {
+  background-color: #ff77ff;
+  color: white
+  text-shadow: .2px .2px #000000;
+  background-image: url("/20190505-slides-open-source-bothell/static/images/philips_open_source.png");
+  background-repeat: no-repeat;
+  background-position: right 20px bottom 20px;
+  background-size: 5%, auto;
+}
+</style>
+    <script>
+      function resize() {
+        var w = window.innerWidth;
+        var h = window.innerHeight;
+        var bw = document.body.offsetWidth;
+        var bh = document.body.offsetHeight;
+        var scale = ((w/h < bw/bh) ? w/bw : h/bh);
+        document.body.style.transform = 'scale(' + scale + ')';
+      }
+
+      var currentSlide = -1;
+
+      function goTo(slideIndex) {
+        currentSlide = slideIndex;
+        window.location.hash = slideIndex;
+        var slides = document.querySelectorAll('.slide');
+        for (var i = 0; i < slides.length; i++) {
+          var el = slides[i];
+          var slide = el.children[0];
+          var scaleWidth = (el.offsetWidth * 0.8 / slide.offsetWidth);
+          var scaleHeight = (el.offsetHeight * 0.8 / slide.offsetHeight);
+          slide.style.transform = 'scale(' + Math.min(scaleWidth, scaleHeight) + ')';
+          if (i == currentSlide) {
+            el.style.visibility = '';
+          } else {
+            el.style.visibility = 'hidden';
+          }
+        }
+
+        document.getElementsByTagName("body")[0].className = "slide-16x9";
+
+        var leaveEvt = new Event("slideLeave_"+slideIndex-1)
+        window.dispatchEvent(leaveEvt)
+
+        var evt = new Event("slideEnter_"+slideIndex)
+        window.dispatchEvent(evt)
+      }
+
+      function next() {
+        goTo(Math.min(currentSlide + 1, document.querySelectorAll('.slide').length - 1));
+      }
+
+      function prev() {
+        goTo(Math.max(currentSlide - 1, 0));
+      }
+
+      window.onload = function() {
+        resize();
+        var tmpSlideFromHash = parseInt(window.location.hash.substring(1)||0, 10)
+        goTo(tmpSlideFromHash);
+        window.onclick = next;
+        window.onresize = resize;
+        window.onkeydown = function(e) {
+          if (e.keyCode == 39) {
+            next();
+          } else if (e.keyCode == 37) {
+            prev();
+          }
+        };
+      };
+    </script>
+  </head>
+  <body class="slide-16x9">
+    <div class="slide-root">
+
+		<div class="slide slide-0" style="visibility: hidden;">
+		<div class="slide-content">
+
+		<h1> Bothell</h1>
+
+		<h1> Software Centre</h1>
+
+		<h1> of Excellence</h1>
+
+		<h1> Conference</h1>
+
+		<h1> 2019</h1>
+
+		</div>
+		</div>
+
+		<div class="slide slide-1" style="visibility: hidden;">
+		<div class="slide-content">
+
+		<h1> What is Open Source?</h1>
+
+		</div>
+		</div>
+
+		<div class="slide slide-2" style="visibility: hidden;">
+		<div class="slide-content">
+
+				<p>The open-source model </p>
+
+				<p>is a <strong>decentralized</strong> </p>
+
+				<p><strong>software development</strong> </p>
+
+				<p><strong>model</strong> that encourages </p>
+
+				<p><strong>open collaboration</strong>.</p>
+
+		</div>
+		</div>
+
+		<div class="slide slide-3" style="visibility: hidden;">
+		<div class="slide-content">
+
+				<p>A main principle of open-source </p>
+
+				<p>software development is </p>
+
+				<p><strong>peer production</strong>, with products </p>
+
+				<p>such as source code, blueprints, </p>
+
+				<p>and documentation <strong>freely</strong> available </p>
+
+				<p>to the <strong>public</strong>. </p>
+
+		</div>
+		</div>
+
+		<div class="slide slide-4" style="visibility: hidden;">
+		<div class="slide-content">
+
+		<h1> Who uses </h1>
+
+		<h1> Open Source?</h1>
+
+		</div>
+		</div>
+
+		<div class="slide slide-5" style="visibility: hidden;">
+		<div class="slide-content">
+
+		<h1> Who contributes </h1>
+
+		<h1> to Open Source?</h1>
+
+		</div>
+		</div>
+
+		<div class="slide slide-6" style="visibility: hidden;">
+		<div class="slide-content">
+
+		<h1> Who writes </h1>
+
+		<h1> Open Source </h1>
+
+		<h1> for Philips?</h1>
+
+		</div>
+		</div>
+
+		<div class="slide slide-7" style="visibility: hidden;">
+		<div class="slide-content">
+
+		<h1> Jeroen</h1>
+
+		<h1> Knoops</h1>
+	<pre class="chroma">Philips Research
+Software Concepts
+</pre>
+			<style>/* Background */ .chroma { color: #f8f8f2; background-color: #272822 }
+/* Error */ .chroma .err { color: #960050; background-color: #1e0010 }
+/* LineTableTD */ .chroma .lntd { vertical-align: top; padding: 0; margin: 0; border: 0; }
+/* LineTable */ .chroma .lntable { border-spacing: 0; padding: 0; margin: 0; border: 0; width: auto; overflow: auto; display: block; }
+/* LineHighlight */ .chroma .hl { display: block; width: 100%; }
+/* LineNumbersTable */ .chroma .lnt { margin-right: 0.4em; padding: 0 0.4em 0 0.4em; }
+/* LineNumbers */ .chroma .ln { margin-right: 0.4em; padding: 0 0.4em 0 0.4em; }
+/* Keyword */ .chroma .k { color: #66d9ef }
+/* KeywordConstant */ .chroma .kc { color: #66d9ef }
+/* KeywordDeclaration */ .chroma .kd { color: #66d9ef }
+/* KeywordNamespace */ .chroma .kn { color: #f92672 }
+/* KeywordPseudo */ .chroma .kp { color: #66d9ef }
+/* KeywordReserved */ .chroma .kr { color: #66d9ef }
+/* KeywordType */ .chroma .kt { color: #66d9ef }
+/* NameAttribute */ .chroma .na { color: #a6e22e }
+/* NameClass */ .chroma .nc { color: #a6e22e }
+/* NameConstant */ .chroma .no { color: #66d9ef }
+/* NameDecorator */ .chroma .nd { color: #a6e22e }
+/* NameException */ .chroma .ne { color: #a6e22e }
+/* NameFunction */ .chroma .nf { color: #a6e22e }
+/* NameOther */ .chroma .nx { color: #a6e22e }
+/* NameTag */ .chroma .nt { color: #f92672 }
+/* Literal */ .chroma .l { color: #ae81ff }
+/* LiteralDate */ .chroma .ld { color: #e6db74 }
+/* LiteralString */ .chroma .s { color: #e6db74 }
+/* LiteralStringAffix */ .chroma .sa { color: #e6db74 }
+/* LiteralStringBacktick */ .chroma .sb { color: #e6db74 }
+/* LiteralStringChar */ .chroma .sc { color: #e6db74 }
+/* LiteralStringDelimiter */ .chroma .dl { color: #e6db74 }
+/* LiteralStringDoc */ .chroma .sd { color: #e6db74 }
+/* LiteralStringDouble */ .chroma .s2 { color: #e6db74 }
+/* LiteralStringEscape */ .chroma .se { color: #ae81ff }
+/* LiteralStringHeredoc */ .chroma .sh { color: #e6db74 }
+/* LiteralStringInterpol */ .chroma .si { color: #e6db74 }
+/* LiteralStringOther */ .chroma .sx { color: #e6db74 }
+/* LiteralStringRegex */ .chroma .sr { color: #e6db74 }
+/* LiteralStringSingle */ .chroma .s1 { color: #e6db74 }
+/* LiteralStringSymbol */ .chroma .ss { color: #e6db74 }
+/* LiteralNumber */ .chroma .m { color: #ae81ff }
+/* LiteralNumberBin */ .chroma .mb { color: #ae81ff }
+/* LiteralNumberFloat */ .chroma .mf { color: #ae81ff }
+/* LiteralNumberHex */ .chroma .mh { color: #ae81ff }
+/* LiteralNumberInteger */ .chroma .mi { color: #ae81ff }
+/* LiteralNumberIntegerLong */ .chroma .il { color: #ae81ff }
+/* LiteralNumberOct */ .chroma .mo { color: #ae81ff }
+/* Operator */ .chroma .o { color: #f92672 }
+/* OperatorWord */ .chroma .ow { color: #f92672 }
+/* Comment */ .chroma .c { color: #75715e }
+/* CommentHashbang */ .chroma .ch { color: #75715e }
+/* CommentMultiline */ .chroma .cm { color: #75715e }
+/* CommentSingle */ .chroma .c1 { color: #75715e }
+/* CommentSpecial */ .chroma .cs { color: #75715e }
+/* CommentPreproc */ .chroma .cp { color: #75715e }
+/* CommentPreprocFile */ .chroma .cpf { color: #75715e }
+/* GenericDeleted */ .chroma .gd { color: #f92672 }
+/* GenericEmph */ .chroma .ge { font-style: italic }
+/* GenericInserted */ .chroma .gi { color: #a6e22e }
+/* GenericStrong */ .chroma .gs { font-weight: bold }
+/* GenericSubheading */ .chroma .gu { color: #75715e }
+</style>
+
+		</div>
+		</div>
+
+		<div class="slide slide-8" style="visibility: hidden;">
+		<div class="slide-content">
+
+		<h1> Why contributing </h1>
+
+		<h1> to Open Source?</h1>
+
+		</div>
+		</div>
+
+		<div class="slide slide-9" style="visibility: hidden;">
+		<div class="slide-content">
+
+		<h2> Benefits</h2>
+
+		</div>
+		</div>
+
+		<div class="slide slide-10" style="visibility: hidden;">
+		<div class="slide-content">
+
+		<h3> Benefits</h3>
+
+		<h1> Share knowledge</h1>
+
+		</div>
+		</div>
+
+		<div class="slide slide-11" style="visibility: hidden;">
+		<div class="slide-content">
+
+		<h3> Benefits</h3>
+
+		<h1> Accelerate feedback cycle</h1>
+
+		</div>
+		</div>
+
+		<div class="slide slide-12" style="visibility: hidden;">
+		<div class="slide-content">
+
+		<h3> Benefits</h3>
+
+		<h1> Visibility in the community</h1>
+
+		</div>
+		</div>
+
+		<div class="slide slide-13" style="visibility: hidden;">
+		<div class="slide-content">
+
+		<h3> Benefits</h3>
+
+		<h1> Collaborations</h1>
+
+		</div>
+		</div>
+
+		<div class="slide slide-14" style="visibility: hidden;">
+		<div class="slide-content">
+
+		<h3> Benefits</h3>
+
+		<h1> Increase quality</h1>
+
+		</div>
+		</div>
+
+		<div class="slide slide-15" style="visibility: hidden;">
+		<div class="slide-content">
+
+		<h3> Benefits</h3>
+
+		<h1> External validation, </h1>
+
+		<h1> see what resonates</h1>
+
+		</div>
+		</div>
+
+		<div class="slide slide-16" style="visibility: hidden;">
+		<div class="slide-content">
+
+		<h3> Benefits</h3>
+
+		<h1> Recruiting and Onboarding</h1>
+
+		</div>
+		</div>
+
+		<div class="slide slide-17" style="visibility: hidden;">
+		<div class="slide-content">
+
+		<h3> Benefits</h3>
+
+		<h1> Establishing or Supporting </h1>
+
+		<h1> an Open Standard </h1>
+
+		</div>
+		</div>
+
+		<div class="slide slide-18" style="visibility: hidden;">
+		<div class="slide-content">
+
+		<h3> Benefits</h3>
+
+		<h1> Projects treat your</h1>
+
+		<h1> tool as Open Source </h1>
+
+		</div>
+		</div>
+
+		<div class="slide slide-19" style="visibility: hidden;">
+		<div class="slide-content">
+
+				<p><strong>Benefits</strong></p>
+
+				<p>- Share knowledge</p>
+
+				<p>- Accelerate feedback cycle</p>
+
+				<p>- Visibility in the community</p>
+
+				<p>- Collaborations</p>
+
+				<p>- Increase quality</p>
+
+				<p>- External validation, see what resonates</p>
+
+				<p>- Recruiting and Onboarding</p>
+
+				<p>- Establishing or Supporting an Open Standard </p>
+
+				<p>- Projects treat your tool as Open Source </p>
+
+		</div>
+		</div>
+
+		<div class="slide slide-20" style="visibility: hidden;">
+		<div class="slide-content">
+
+		</div>
+		</div>
+
+		<div class="slide slide-21" style="visibility: hidden;">
+		<div class="slide-content">
+
+		<h1> Why is it hard for Philips?</h1>
+
+		</div>
+		</div>
+
+		<div class="slide slide-22" style="visibility: hidden;">
+		<div class="slide-content">
+
+		<h3> Why is it hard for Philips?</h3>
+
+		<h2> Legal</h2>
+
+		</div>
+		</div>
+
+		<div class="slide slide-23" style="visibility: hidden;">
+		<div class="slide-content">
+
+		<h6> What is so different?</h6>
+
+		<h2> Regulated </h2>
+
+		<h2> environment</h2>
+
+		</div>
+		</div>
+
+		<div class="slide slide-24" style="visibility: hidden;">
+		<div class="slide-content">
+
+		<h6> What is so different?</h6>
+
+		<h2> IP generation</h2>
+
+		</div>
+		</div>
+
+		<div class="slide slide-25" style="visibility: hidden;">
+		<div class="slide-content">
+
+		<h6> What is so different?</h6>
+
+		<h2> Developers</h2>
+
+		</div>
+		</div>
+
+		<div class="slide slide-26" style="visibility: hidden;">
+		<div class="slide-content">
+
+		<h6> What is so different?</h6>
+
+		<h2> Organization</h2>
+
+		<h2> structures</h2>
+
+		<h2> (my code)</h2>
+
+		</div>
+		</div>
+
+		<div class="slide slide-27" style="visibility: hidden;">
+		<div class="slide-content">
+
+		<h6> What is so different?</h6>
+
+		<h2> Inner source</h2>
+
+		</div>
+		</div>
+
+		<div class="slide slide-28" style="visibility: hidden;">
+		<div class="slide-content">
+
+		<h1> Good </h1>
+
+		<h1> News</h1>
+
+		</div>
+		</div>
+
+		<div class="slide slide-29" style="visibility: hidden;">
+		<div class="slide-content">
+
+		</div>
+		</div>
+
+		<div class="slide slide-30" style="visibility: hidden;">
+		<div class="slide-content">
+
+				<p>github.com/philips-software</p>
+
+		</div>
+		</div>
+
+		<div class="slide slide-31" style="visibility: hidden;">
+		<div class="slide-content">
+
+		<h1> Research Trial</h1>
+
+		</div>
+		</div>
+
+		<div class="slide slide-32" style="visibility: hidden;">
+		<div class="slide-content">
+
+		<h2> Open Source Team</h2>
+	<pre class="chroma">- Marcin Czenko
+- Bart Golsteijn
+- Ralph Holdorp
+- Jeroen Knoops
+- Arnold Niessen
+- Niek Palm
+</pre>
+			<style>/* Background */ .chroma { color: #f8f8f2; background-color: #272822 }
+/* Error */ .chroma .err { color: #960050; background-color: #1e0010 }
+/* LineTableTD */ .chroma .lntd { vertical-align: top; padding: 0; margin: 0; border: 0; }
+/* LineTable */ .chroma .lntable { border-spacing: 0; padding: 0; margin: 0; border: 0; width: auto; overflow: auto; display: block; }
+/* LineHighlight */ .chroma .hl { display: block; width: 100%; }
+/* LineNumbersTable */ .chroma .lnt { margin-right: 0.4em; padding: 0 0.4em 0 0.4em; }
+/* LineNumbers */ .chroma .ln { margin-right: 0.4em; padding: 0 0.4em 0 0.4em; }
+/* Keyword */ .chroma .k { color: #66d9ef }
+/* KeywordConstant */ .chroma .kc { color: #66d9ef }
+/* KeywordDeclaration */ .chroma .kd { color: #66d9ef }
+/* KeywordNamespace */ .chroma .kn { color: #f92672 }
+/* KeywordPseudo */ .chroma .kp { color: #66d9ef }
+/* KeywordReserved */ .chroma .kr { color: #66d9ef }
+/* KeywordType */ .chroma .kt { color: #66d9ef }
+/* NameAttribute */ .chroma .na { color: #a6e22e }
+/* NameClass */ .chroma .nc { color: #a6e22e }
+/* NameConstant */ .chroma .no { color: #66d9ef }
+/* NameDecorator */ .chroma .nd { color: #a6e22e }
+/* NameException */ .chroma .ne { color: #a6e22e }
+/* NameFunction */ .chroma .nf { color: #a6e22e }
+/* NameOther */ .chroma .nx { color: #a6e22e }
+/* NameTag */ .chroma .nt { color: #f92672 }
+/* Literal */ .chroma .l { color: #ae81ff }
+/* LiteralDate */ .chroma .ld { color: #e6db74 }
+/* LiteralString */ .chroma .s { color: #e6db74 }
+/* LiteralStringAffix */ .chroma .sa { color: #e6db74 }
+/* LiteralStringBacktick */ .chroma .sb { color: #e6db74 }
+/* LiteralStringChar */ .chroma .sc { color: #e6db74 }
+/* LiteralStringDelimiter */ .chroma .dl { color: #e6db74 }
+/* LiteralStringDoc */ .chroma .sd { color: #e6db74 }
+/* LiteralStringDouble */ .chroma .s2 { color: #e6db74 }
+/* LiteralStringEscape */ .chroma .se { color: #ae81ff }
+/* LiteralStringHeredoc */ .chroma .sh { color: #e6db74 }
+/* LiteralStringInterpol */ .chroma .si { color: #e6db74 }
+/* LiteralStringOther */ .chroma .sx { color: #e6db74 }
+/* LiteralStringRegex */ .chroma .sr { color: #e6db74 }
+/* LiteralStringSingle */ .chroma .s1 { color: #e6db74 }
+/* LiteralStringSymbol */ .chroma .ss { color: #e6db74 }
+/* LiteralNumber */ .chroma .m { color: #ae81ff }
+/* LiteralNumberBin */ .chroma .mb { color: #ae81ff }
+/* LiteralNumberFloat */ .chroma .mf { color: #ae81ff }
+/* LiteralNumberHex */ .chroma .mh { color: #ae81ff }
+/* LiteralNumberInteger */ .chroma .mi { color: #ae81ff }
+/* LiteralNumberIntegerLong */ .chroma .il { color: #ae81ff }
+/* LiteralNumberOct */ .chroma .mo { color: #ae81ff }
+/* Operator */ .chroma .o { color: #f92672 }
+/* OperatorWord */ .chroma .ow { color: #f92672 }
+/* Comment */ .chroma .c { color: #75715e }
+/* CommentHashbang */ .chroma .ch { color: #75715e }
+/* CommentMultiline */ .chroma .cm { color: #75715e }
+/* CommentSingle */ .chroma .c1 { color: #75715e }
+/* CommentSpecial */ .chroma .cs { color: #75715e }
+/* CommentPreproc */ .chroma .cp { color: #75715e }
+/* CommentPreprocFile */ .chroma .cpf { color: #75715e }
+/* GenericDeleted */ .chroma .gd { color: #f92672 }
+/* GenericEmph */ .chroma .ge { font-style: italic }
+/* GenericInserted */ .chroma .gi { color: #a6e22e }
+/* GenericStrong */ .chroma .gs { font-weight: bold }
+/* GenericSubheading */ .chroma .gu { color: #75715e }
+</style>
+
+		</div>
+		</div>
+
+		<div class="slide slide-33" style="visibility: hidden;">
+		<div class="slide-content">
+
+		<h2> Approved by</h2>
+
+		<h1> CTO</h1>
+
+		</div>
+		</div>
+
+		<div class="slide slide-34" style="visibility: hidden;">
+		<div class="slide-content">
+
+		<h2> Collaborated with </h2>
+
+		<h1> CAO </h1>
+
+		</div>
+		</div>
+
+		<div class="slide slide-35" style="visibility: hidden;">
+		<div class="slide-content">
+
+		<h1> Supported by </h1>
+
+		<h1> SW CoE</h1>
+
+		</div>
+		</div>
+
+		<div class="slide slide-36" style="visibility: hidden;">
+		<div class="slide-content">
+
+				<p>To become the best</p>
+
+		<h1> software company</h1>
+
+				<p>in healthcare</p>
+
+		</div>
+		</div>
+
+		<div class="slide slide-37" style="visibility: hidden;">
+		<div class="slide-content">
+
+		<h1> Open Source in </h1>
+
+		<h1> Philips Today</h1>
+
+		</div>
+		</div>
+
+		<div class="slide slide-38" style="visibility: hidden;">
+		<div class="slide-content">
+
+		</div>
+		</div>
+
+		<div class="slide slide-39" style="visibility: hidden;">
+		<div class="slide-content">
+
+		<h1> Examples</h1>
+
+		</div>
+		</div>
+
+		<div class="slide slide-40" style="visibility: hidden;">
+		<div class="slide-content">
+
+		</div>
+		</div>
+
+		<div class="slide slide-41" style="visibility: hidden;">
+		<div class="slide-content">
+
+		</div>
+		</div>
+
+		<div class="slide slide-42" style="visibility: hidden;">
+		<div class="slide-content">
+
+		</div>
+		</div>
+
+		<div class="slide slide-43" style="visibility: hidden;">
+		<div class="slide-content">
+
+		</div>
+		</div>
+
+		<div class="slide slide-44" style="visibility: hidden;">
+		<div class="slide-content">
+
+		</div>
+		</div>
+
+		<div class="slide slide-45" style="visibility: hidden;">
+		<div class="slide-content">
+
+		</div>
+		</div>
+
+		<div class="slide slide-46" style="visibility: hidden;">
+		<div class="slide-content">
+
+		</div>
+		</div>
+
+		<div class="slide slide-47" style="visibility: hidden;">
+		<div class="slide-content">
+
+		</div>
+		</div>
+
+		<div class="slide slide-48" style="visibility: hidden;">
+		<div class="slide-content">
+
+				<p>https://github.com/philips-software/overview</p>
+
+		</div>
+		</div>
+
+		<div class="slide slide-49" style="visibility: hidden;">
+		<div class="slide-content">
+
+		</div>
+		</div>
+
+		<div class="slide slide-50" style="visibility: hidden;">
+		<div class="slide-content">
+
+				<p>Procedure to </p>
+
+				<p>Open Source</p>
+
+		</div>
+		</div>
+
+		<div class="slide slide-51" style="visibility: hidden;">
+		<div class="slide-content">
+
+				<p>https://github.com/philips-software/philips-howto-open-source</p>
+
+		</div>
+		</div>
+
+		<div class="slide slide-52" style="visibility: hidden;">
+		<div class="slide-content">
+
+		</div>
+		</div>
+
+		<div class="slide slide-53" style="visibility: hidden;">
+		<div class="slide-content">
+
+				<p>https://gitlab.ta.philips.com/open-source/howto-open-source</p>
+
+		</div>
+		</div>
+
+		<div class="slide slide-54" style="visibility: hidden;">
+		<div class="slide-content">
+
+		</div>
+		</div>
+
+		<div class="slide slide-55" style="visibility: hidden;">
+		<div class="slide-content">
+
+		<h1> Key Considerations</h1>
+	<pre class="chroma">- Not all contributions can be evaluated
+- Contributor has the main knowledge
+- The contributor is responsible
+</pre>
+			<style>/* Background */ .chroma { color: #f8f8f2; background-color: #272822 }
+/* Error */ .chroma .err { color: #960050; background-color: #1e0010 }
+/* LineTableTD */ .chroma .lntd { vertical-align: top; padding: 0; margin: 0; border: 0; }
+/* LineTable */ .chroma .lntable { border-spacing: 0; padding: 0; margin: 0; border: 0; width: auto; overflow: auto; display: block; }
+/* LineHighlight */ .chroma .hl { display: block; width: 100%; }
+/* LineNumbersTable */ .chroma .lnt { margin-right: 0.4em; padding: 0 0.4em 0 0.4em; }
+/* LineNumbers */ .chroma .ln { margin-right: 0.4em; padding: 0 0.4em 0 0.4em; }
+/* Keyword */ .chroma .k { color: #66d9ef }
+/* KeywordConstant */ .chroma .kc { color: #66d9ef }
+/* KeywordDeclaration */ .chroma .kd { color: #66d9ef }
+/* KeywordNamespace */ .chroma .kn { color: #f92672 }
+/* KeywordPseudo */ .chroma .kp { color: #66d9ef }
+/* KeywordReserved */ .chroma .kr { color: #66d9ef }
+/* KeywordType */ .chroma .kt { color: #66d9ef }
+/* NameAttribute */ .chroma .na { color: #a6e22e }
+/* NameClass */ .chroma .nc { color: #a6e22e }
+/* NameConstant */ .chroma .no { color: #66d9ef }
+/* NameDecorator */ .chroma .nd { color: #a6e22e }
+/* NameException */ .chroma .ne { color: #a6e22e }
+/* NameFunction */ .chroma .nf { color: #a6e22e }
+/* NameOther */ .chroma .nx { color: #a6e22e }
+/* NameTag */ .chroma .nt { color: #f92672 }
+/* Literal */ .chroma .l { color: #ae81ff }
+/* LiteralDate */ .chroma .ld { color: #e6db74 }
+/* LiteralString */ .chroma .s { color: #e6db74 }
+/* LiteralStringAffix */ .chroma .sa { color: #e6db74 }
+/* LiteralStringBacktick */ .chroma .sb { color: #e6db74 }
+/* LiteralStringChar */ .chroma .sc { color: #e6db74 }
+/* LiteralStringDelimiter */ .chroma .dl { color: #e6db74 }
+/* LiteralStringDoc */ .chroma .sd { color: #e6db74 }
+/* LiteralStringDouble */ .chroma .s2 { color: #e6db74 }
+/* LiteralStringEscape */ .chroma .se { color: #ae81ff }
+/* LiteralStringHeredoc */ .chroma .sh { color: #e6db74 }
+/* LiteralStringInterpol */ .chroma .si { color: #e6db74 }
+/* LiteralStringOther */ .chroma .sx { color: #e6db74 }
+/* LiteralStringRegex */ .chroma .sr { color: #e6db74 }
+/* LiteralStringSingle */ .chroma .s1 { color: #e6db74 }
+/* LiteralStringSymbol */ .chroma .ss { color: #e6db74 }
+/* LiteralNumber */ .chroma .m { color: #ae81ff }
+/* LiteralNumberBin */ .chroma .mb { color: #ae81ff }
+/* LiteralNumberFloat */ .chroma .mf { color: #ae81ff }
+/* LiteralNumberHex */ .chroma .mh { color: #ae81ff }
+/* LiteralNumberInteger */ .chroma .mi { color: #ae81ff }
+/* LiteralNumberIntegerLong */ .chroma .il { color: #ae81ff }
+/* LiteralNumberOct */ .chroma .mo { color: #ae81ff }
+/* Operator */ .chroma .o { color: #f92672 }
+/* OperatorWord */ .chroma .ow { color: #f92672 }
+/* Comment */ .chroma .c { color: #75715e }
+/* CommentHashbang */ .chroma .ch { color: #75715e }
+/* CommentMultiline */ .chroma .cm { color: #75715e }
+/* CommentSingle */ .chroma .c1 { color: #75715e }
+/* CommentSpecial */ .chroma .cs { color: #75715e }
+/* CommentPreproc */ .chroma .cp { color: #75715e }
+/* CommentPreprocFile */ .chroma .cpf { color: #75715e }
+/* GenericDeleted */ .chroma .gd { color: #f92672 }
+/* GenericEmph */ .chroma .ge { font-style: italic }
+/* GenericInserted */ .chroma .gi { color: #a6e22e }
+/* GenericStrong */ .chroma .gs { font-weight: bold }
+/* GenericSubheading */ .chroma .gu { color: #75715e }
+</style>
+
+		</div>
+		</div>
+
+		<div class="slide slide-56" style="visibility: hidden;">
+		<div class="slide-content">
+
+				<p><strong>Nothing</strong> is </p>
+
+				<p>published that </p>
+
+				<p>might <strong>risk</strong> </p>
+
+				<p>competitive </p>
+
+				<p>advantage</p>
+
+		</div>
+		</div>
+
+		<div class="slide slide-57" style="visibility: hidden;">
+		<div class="slide-content">
+
+		<h1> This could include</h1>
+
+		<h1> (but is not limited to):</h1>
+	<pre class="chroma">- Philips-specific projects: things tightly
+  coupled to/dependent upon our systems
+- Domain knowledge
+- Customer data
+- Unique Selling Points (USPs)
+- Medical Claims
+- Trade secrets
+- Anything else that would risk our competitive
+  advantage or could harm the Philips Brand
+</pre>
+			<style>/* Background */ .chroma { color: #f8f8f2; background-color: #272822 }
+/* Error */ .chroma .err { color: #960050; background-color: #1e0010 }
+/* LineTableTD */ .chroma .lntd { vertical-align: top; padding: 0; margin: 0; border: 0; }
+/* LineTable */ .chroma .lntable { border-spacing: 0; padding: 0; margin: 0; border: 0; width: auto; overflow: auto; display: block; }
+/* LineHighlight */ .chroma .hl { display: block; width: 100%; }
+/* LineNumbersTable */ .chroma .lnt { margin-right: 0.4em; padding: 0 0.4em 0 0.4em; }
+/* LineNumbers */ .chroma .ln { margin-right: 0.4em; padding: 0 0.4em 0 0.4em; }
+/* Keyword */ .chroma .k { color: #66d9ef }
+/* KeywordConstant */ .chroma .kc { color: #66d9ef }
+/* KeywordDeclaration */ .chroma .kd { color: #66d9ef }
+/* KeywordNamespace */ .chroma .kn { color: #f92672 }
+/* KeywordPseudo */ .chroma .kp { color: #66d9ef }
+/* KeywordReserved */ .chroma .kr { color: #66d9ef }
+/* KeywordType */ .chroma .kt { color: #66d9ef }
+/* NameAttribute */ .chroma .na { color: #a6e22e }
+/* NameClass */ .chroma .nc { color: #a6e22e }
+/* NameConstant */ .chroma .no { color: #66d9ef }
+/* NameDecorator */ .chroma .nd { color: #a6e22e }
+/* NameException */ .chroma .ne { color: #a6e22e }
+/* NameFunction */ .chroma .nf { color: #a6e22e }
+/* NameOther */ .chroma .nx { color: #a6e22e }
+/* NameTag */ .chroma .nt { color: #f92672 }
+/* Literal */ .chroma .l { color: #ae81ff }
+/* LiteralDate */ .chroma .ld { color: #e6db74 }
+/* LiteralString */ .chroma .s { color: #e6db74 }
+/* LiteralStringAffix */ .chroma .sa { color: #e6db74 }
+/* LiteralStringBacktick */ .chroma .sb { color: #e6db74 }
+/* LiteralStringChar */ .chroma .sc { color: #e6db74 }
+/* LiteralStringDelimiter */ .chroma .dl { color: #e6db74 }
+/* LiteralStringDoc */ .chroma .sd { color: #e6db74 }
+/* LiteralStringDouble */ .chroma .s2 { color: #e6db74 }
+/* LiteralStringEscape */ .chroma .se { color: #ae81ff }
+/* LiteralStringHeredoc */ .chroma .sh { color: #e6db74 }
+/* LiteralStringInterpol */ .chroma .si { color: #e6db74 }
+/* LiteralStringOther */ .chroma .sx { color: #e6db74 }
+/* LiteralStringRegex */ .chroma .sr { color: #e6db74 }
+/* LiteralStringSingle */ .chroma .s1 { color: #e6db74 }
+/* LiteralStringSymbol */ .chroma .ss { color: #e6db74 }
+/* LiteralNumber */ .chroma .m { color: #ae81ff }
+/* LiteralNumberBin */ .chroma .mb { color: #ae81ff }
+/* LiteralNumberFloat */ .chroma .mf { color: #ae81ff }
+/* LiteralNumberHex */ .chroma .mh { color: #ae81ff }
+/* LiteralNumberInteger */ .chroma .mi { color: #ae81ff }
+/* LiteralNumberIntegerLong */ .chroma .il { color: #ae81ff }
+/* LiteralNumberOct */ .chroma .mo { color: #ae81ff }
+/* Operator */ .chroma .o { color: #f92672 }
+/* OperatorWord */ .chroma .ow { color: #f92672 }
+/* Comment */ .chroma .c { color: #75715e }
+/* CommentHashbang */ .chroma .ch { color: #75715e }
+/* CommentMultiline */ .chroma .cm { color: #75715e }
+/* CommentSingle */ .chroma .c1 { color: #75715e }
+/* CommentSpecial */ .chroma .cs { color: #75715e }
+/* CommentPreproc */ .chroma .cp { color: #75715e }
+/* CommentPreprocFile */ .chroma .cpf { color: #75715e }
+/* GenericDeleted */ .chroma .gd { color: #f92672 }
+/* GenericEmph */ .chroma .ge { font-style: italic }
+/* GenericInserted */ .chroma .gi { color: #a6e22e }
+/* GenericStrong */ .chroma .gs { font-weight: bold }
+/* GenericSubheading */ .chroma .gu { color: #75715e }
+</style>
+
+		</div>
+		</div>
+
+		<div class="slide slide-58" style="visibility: hidden;">
+		<div class="slide-content">
+
+				<p>The contribution </p>
+
+				<p>delivers <strong>value</strong></p>
+
+		</div>
+		</div>
+
+		<div class="slide slide-59" style="visibility: hidden;">
+		<div class="slide-content">
+
+		</div>
+		</div>
+
+		<div class="slide slide-60" style="visibility: hidden;">
+		<div class="slide-content">
+
+		</div>
+		</div>
+
+		<div class="slide slide-61" style="visibility: hidden;">
+		<div class="slide-content">
+
+		</div>
+		</div>
+
+		<div class="slide slide-62" style="visibility: hidden;">
+		<div class="slide-content">
+
+		<h1> Typical types</h1>
+
+		<h1> of projects</h1>
+
+		</div>
+		</div>
+
+		<div class="slide slide-63" style="visibility: hidden;">
+		<div class="slide-content">
+
+		<h1> Supporting libraries</h1>
+
+		<h1> CLIs</h1>
+
+		<h1> docker images</h1>
+
+		<h1> Licence file generators</h1>
+
+		</div>
+		</div>
+
+		<div class="slide slide-64" style="visibility: hidden;">
+		<div class="slide-content">
+
+		<h1> Third Party Services</h1>
+
+		</div>
+		</div>
+
+		<div class="slide slide-65" style="visibility: hidden;">
+		<div class="slide-content">
+
+		<h1> Build Tools</h1>
+
+		<h1> Publish Artifacts</h1>
+
+		<h1> Quality tools</h1>
+
+		</div>
+		</div>
+
+		<div class="slide slide-66" style="visibility: hidden;">
+		<div class="slide-content">
+
+		<h1> Future</h1>
+
+		</div>
+		</div>
+
+		<div class="slide slide-67" style="visibility: hidden;">
+		<div class="slide-content">
+
+		<h2> Future</h2>
+
+		<h1> Transfer Pilot</h1>
+
+		<h1> Contributions existing projects</h1>
+
+		<h1> Collaboration projects</h1>
+
+		</div>
+		</div>
+
+		<div class="slide slide-68" style="visibility: hidden;">
+		<div class="slide-content">
+
+		<h1> Misconceptions</h1>
+
+		</div>
+		</div>
+
+		<div class="slide slide-69" style="visibility: hidden;">
+		<div class="slide-content">
+
+		<h6> Misconceptions</h6>
+
+		<h2> Free maintenance</h2>
+
+		</div>
+		</div>
+
+		<div class="slide slide-70" style="visibility: hidden;">
+		<div class="slide-content">
+
+		<h6> Misconceptions</h6>
+
+		<h2> Now anyone can publish </h2>
+
+		<h2> anything under our </h2>
+
+		<h2> companies name.</h2>
+
+		</div>
+		</div>
+
+		<div class="slide slide-71" style="visibility: hidden;">
+		<div class="slide-content">
+
+		<h6> Misconceptions</h6>
+
+		<h2> Organization smells</h2>
+
+		<h3> "Don’t open source yet, </h3>
+
+		<h3> maybe project x can still</h3>
+
+		<h3> use it”. </h3>
+
+		<h3> Wait until no-one needs it.</h3>
+
+		</div>
+		</div>
+
+		<div class="slide slide-72" style="visibility: hidden;">
+		<div class="slide-content">
+
+		<h6> Misconceptions</h6>
+
+		<h2> Organization smells</h2>
+
+		<h3> "Don’t feed the competitors."</h3>
+
+		</div>
+		</div>
+
+		<div class="slide slide-73" style="visibility: hidden;">
+		<div class="slide-content">
+
+		<h6> Misconceptions</h6>
+
+		<h2> Organization smells</h2>
+
+		<h3> "Use your own email account, </h3>
+
+		<h3> because otherwise you </h3>
+
+		<h3> will get in trouble"</h3>
+
+		</div>
+		</div>
+
+		<div class="slide slide-74" style="visibility: hidden;">
+		<div class="slide-content">
+
+		<h1> Conclusion</h1>
+
+		</div>
+		</div>
+
+		<div class="slide slide-75" style="visibility: hidden;">
+		<div class="slide-content">
+
+				<p>Culture must</p>
+
+				<p>change!</p>
+
+		</div>
+		</div>
+
+		<div class="slide slide-76" style="visibility: hidden;">
+		<div class="slide-content">
+
+				<p>From <strong>FEAR</strong></p>
+
+		</div>
+		</div>
+
+		<div class="slide slide-77" style="visibility: hidden;">
+		<div class="slide-content">
+
+				<p>To <strong>PRIDE</strong></p>
+
+		</div>
+		</div>
+
+		<div class="slide slide-78" style="visibility: hidden;">
+		<div class="slide-content">
+
+				<p>To become the best</p>
+
+		<h1> software company</h1>
+
+				<p>in healthcare</p>
+
+		</div>
+		</div>
+
+		<div class="slide slide-79" style="visibility: hidden;">
+		<div class="slide-content">
+
+		<h2> Final Thought</h2>
+
+		<h1> Pieter Hintjes:</h1>
+
+				<p>"My only professional regret was to spend years </p>
+
+				<p>of my life making <strong>closed projects</strong> for clients </p>
+
+				<p>who inevitably threw my work away sooner or later."</p>
+
+		</div>
+		</div>
+
+		<div class="slide slide-80" style="visibility: hidden;">
+		<div class="slide-content">
+
+		<h1> github.com/philips-software</h1>
+
+		<h2> Email: jeroen.knoops@philips.com</h2>
+	<pre class="chroma">Slides: http://forest.gitlab-pages.ta.philips.com/20190505-slides-open-source-bothell
+Slack: https://philips-software-slackin.now.sh/
+</pre>
+			<style>/* Background */ .chroma { color: #f8f8f2; background-color: #272822 }
+/* Error */ .chroma .err { color: #960050; background-color: #1e0010 }
+/* LineTableTD */ .chroma .lntd { vertical-align: top; padding: 0; margin: 0; border: 0; }
+/* LineTable */ .chroma .lntable { border-spacing: 0; padding: 0; margin: 0; border: 0; width: auto; overflow: auto; display: block; }
+/* LineHighlight */ .chroma .hl { display: block; width: 100%; }
+/* LineNumbersTable */ .chroma .lnt { margin-right: 0.4em; padding: 0 0.4em 0 0.4em; }
+/* LineNumbers */ .chroma .ln { margin-right: 0.4em; padding: 0 0.4em 0 0.4em; }
+/* Keyword */ .chroma .k { color: #66d9ef }
+/* KeywordConstant */ .chroma .kc { color: #66d9ef }
+/* KeywordDeclaration */ .chroma .kd { color: #66d9ef }
+/* KeywordNamespace */ .chroma .kn { color: #f92672 }
+/* KeywordPseudo */ .chroma .kp { color: #66d9ef }
+/* KeywordReserved */ .chroma .kr { color: #66d9ef }
+/* KeywordType */ .chroma .kt { color: #66d9ef }
+/* NameAttribute */ .chroma .na { color: #a6e22e }
+/* NameClass */ .chroma .nc { color: #a6e22e }
+/* NameConstant */ .chroma .no { color: #66d9ef }
+/* NameDecorator */ .chroma .nd { color: #a6e22e }
+/* NameException */ .chroma .ne { color: #a6e22e }
+/* NameFunction */ .chroma .nf { color: #a6e22e }
+/* NameOther */ .chroma .nx { color: #a6e22e }
+/* NameTag */ .chroma .nt { color: #f92672 }
+/* Literal */ .chroma .l { color: #ae81ff }
+/* LiteralDate */ .chroma .ld { color: #e6db74 }
+/* LiteralString */ .chroma .s { color: #e6db74 }
+/* LiteralStringAffix */ .chroma .sa { color: #e6db74 }
+/* LiteralStringBacktick */ .chroma .sb { color: #e6db74 }
+/* LiteralStringChar */ .chroma .sc { color: #e6db74 }
+/* LiteralStringDelimiter */ .chroma .dl { color: #e6db74 }
+/* LiteralStringDoc */ .chroma .sd { color: #e6db74 }
+/* LiteralStringDouble */ .chroma .s2 { color: #e6db74 }
+/* LiteralStringEscape */ .chroma .se { color: #ae81ff }
+/* LiteralStringHeredoc */ .chroma .sh { color: #e6db74 }
+/* LiteralStringInterpol */ .chroma .si { color: #e6db74 }
+/* LiteralStringOther */ .chroma .sx { color: #e6db74 }
+/* LiteralStringRegex */ .chroma .sr { color: #e6db74 }
+/* LiteralStringSingle */ .chroma .s1 { color: #e6db74 }
+/* LiteralStringSymbol */ .chroma .ss { color: #e6db74 }
+/* LiteralNumber */ .chroma .m { color: #ae81ff }
+/* LiteralNumberBin */ .chroma .mb { color: #ae81ff }
+/* LiteralNumberFloat */ .chroma .mf { color: #ae81ff }
+/* LiteralNumberHex */ .chroma .mh { color: #ae81ff }
+/* LiteralNumberInteger */ .chroma .mi { color: #ae81ff }
+/* LiteralNumberIntegerLong */ .chroma .il { color: #ae81ff }
+/* LiteralNumberOct */ .chroma .mo { color: #ae81ff }
+/* Operator */ .chroma .o { color: #f92672 }
+/* OperatorWord */ .chroma .ow { color: #f92672 }
+/* Comment */ .chroma .c { color: #75715e }
+/* CommentHashbang */ .chroma .ch { color: #75715e }
+/* CommentMultiline */ .chroma .cm { color: #75715e }
+/* CommentSingle */ .chroma .c1 { color: #75715e }
+/* CommentSpecial */ .chroma .cs { color: #75715e }
+/* CommentPreproc */ .chroma .cp { color: #75715e }
+/* CommentPreprocFile */ .chroma .cpf { color: #75715e }
+/* GenericDeleted */ .chroma .gd { color: #f92672 }
+/* GenericEmph */ .chroma .ge { font-style: italic }
+/* GenericInserted */ .chroma .gi { color: #a6e22e }
+/* GenericStrong */ .chroma .gs { font-weight: bold }
+/* GenericSubheading */ .chroma .gu { color: #75715e }
+</style>
+
+		</div>
+		</div>
+
+		<div class="slide slide-81" style="visibility: hidden;">
+		<div class="slide-content">
+
+				<p>QA</p>
+
+		</div>
+		</div>
+
+		<div class="slide slide-82" style="visibility: hidden;">
+		<div class="slide-content">
+
+		<h1> Let's fix an issue!</h1>
+
+		</div>
+		</div>
+
+		<div class="slide slide-83" style="visibility: hidden;">
+		<div class="slide-content">
+
+		<h1> Who wants to volunteer?</h1>
+
+		</div>
+		</div>
+
+		<div class="slide slide-84" style="visibility: hidden;">
+		<div class="slide-content">
+
+				<p>https://github.com/philips-software/powershell-cf-api/issues/1</p>
+
+		</div>
+		</div>
+
+    </div>
+    <div>
+
+    </div>
+  </body>
+</html>
+

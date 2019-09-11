@@ -1,0 +1,23 @@
+.slide-SLIDENUMBER {
+  background-color: #ff9400;
+  color: white;
+  text-shadow: .2px .2px #442222;
+  text-align: left;
+}
+
+.slide-SLIDENUMBER h2 {
+  text-align: left;
+  color: #aa5500 
+}
+
+.slide-SLIDENUMBER h3 {
+  text-align: left;
+  color: #aa5500 
+}
+
+.slide-SLIDENUMBER strong {
+  color: #aa5500 
+}
+
+
+

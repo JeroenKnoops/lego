@@ -1,0 +1,78 @@
+@font-face { 
+  font-family: 'Lintel';
+  src: url(/static/fonts/Lintel_Reg-webfont.ttf) format('truetype'); 
+}
+@font-face { 
+  font-family: 'PrintChar';
+  src: url(/static/fonts/PrintChar21.ttf) format('truetype'); 
+}
+
+@font-face {
+  font-family: 'Iosevka';
+  src: url(/static/fonts/iosevka-regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'CentraleSans';
+  src:  url('/static/fonts/CentraleSans-Light.woff2') format('woff2'),  url('/static/fonts/CentraleSans-Light.woff2') format('woff');
+  font-weight: 200;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'CentraleSans';
+  src:  url('/static/font/CentraleSans-Bold.woff2') format('woff2'), url('/static/font/CentraleSans-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CentraleSansCondensed';
+  src:  url('/static/font/CentraleSansCnd-Bold.woff2') format('woff2'), url('/static/font/CentraleSans-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+body {
+  font-family: Lintel, Fallback, sans-serif !important;
+  background-color: #EFEFEF;
+  color: #222;
+  text-shadow: .2px .2px #eecccc;
+}
+p {
+  text-align: center;
+  font-family: Lintel, Fallback, sans-serif !important;
+}
+
+.slide {
+  background-image: url("/static/images/philips-logo.png");
+  background-repeat: no-repeat;
+  background-position: right 20px bottom 20px;
+  background-size: 5%, auto;
+}
+.slide strong {
+  color: purple;
+}
+.slide h1 {
+  text-align: center;
+  font-family: Lintel, Fallback, sans-serif !important;
+  font-weight: 400;
+  font-size: 2.6rem;
+}
+.slide h2 {
+  text-align: center;
+  font-family: Lintel, Fallback, sans-serif !important;
+  font-weight: 300;
+  font-size: 2.4rem;
+}
+.slide h6 {
+  font-family: Lintel, Fallback, sans-serif !important;
+  text-align: center;
+  font-size: 0.5rem;
+}
+.slide pre {
+  font-family: Iosevka;
+  background-color: #333;
+  padding: 10px;
+  border-radius: 3px;
+}

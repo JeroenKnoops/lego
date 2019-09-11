@@ -1,0 +1,10 @@
+.slide-SLIDENUMBER {
+  background-color: #0094cc;
+  color: white;
+  text-shadow: .2px .2px #442222;
+}
+
+
+.slide-SLIDENUMBER h3 {
+  color: yellow;
+}

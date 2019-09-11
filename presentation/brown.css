@@ -1,0 +1,9 @@
+.slide-SLIDENUMBER {
+  background-color: #cc9400;
+  color: white;
+  text-shadow: .3px .3px #442222;
+}
+
+.slide-SLIDENUMBER h2 {
+  text-align: left;
+}

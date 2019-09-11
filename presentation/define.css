@@ -1,0 +1,14 @@
+.slide-SLIDENUMBER {
+  background-color: #ff3300;
+  color: white;
+  text-shadow: .2px .2px #442222;
+}
+
+.slide-SLIDENUMBER pre {
+  margin-top: 10px;
+  background-color: #cc1100;
+  font-style: italic;
+}
+
+
+
