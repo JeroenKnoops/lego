@@ -85,16 +85,16 @@
 
 body {
   font-family: Viga, Fallback, sans-serif !important;
-  background-color: #EFEFEF;
+  background-color: #fff;
   color: #222;
-  text-shadow: .2px .2px #eecccc;
+  text-shadow: .2px .2px #ddcccc;
 }
 p {
   text-align: center;
   font-family: Acme, Fallback, sans-serif !important;
 }
 
-.slide {
+.slide-not-used {
   background-image: url("/static/images/philips-logo.png");
   background-repeat: no-repeat;
   background-position: right 20px bottom 20px;

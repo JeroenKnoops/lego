@@ -19,14 +19,20 @@ WRITING
 CODE!
 @css/yellow.css
 
-USED
+Used
 
-PEOPLE!
+People!
+
+Improve
+
+Healthier
+
+Educate
 
 How
 @css/green2.css
 
-ACCOMPLISH
+Accomplish
 @css/green2.css
 
 that?
@@ -35,7 +41,7 @@ that?
 What
 @css/orange.css
 
-METHOD
+Method
 @css/orange.css
 
 use?
@@ -127,7 +133,7 @@ Quality
 @css/orange.css
 
 re-use
-@css/green.css
+@css/orange.css
 
 facilitate
 @css/red.css
@@ -190,12 +196,226 @@ Legal?
 
 Jeroen
 Knoops
+@css/blue.css
 
 Philips Research
 Eindhoven
+@css/blue.css
 
--=====================================================================================-
-# 
+Development
+Environments?
+
+Tools
+
+Startup
+
+Source Control
+@css/purple.css
+
+- Github
+
+- Github
+- Gitlab
+
+CI?
+@css/purple.css
+
+- Github Actions
+
+- Github Actions
+- Gitlab
+
+- Github Actions
+- Gitlab
+- Travis-ci
+
+- Github Actions
+- Gitlab
+- Travis-ci
+- Azure pipelines
+
+Deployment?
+@css/purple.css
+
+- AWS
+
+- AWS
+- Zeit
+
+- AWS
+- Zeit
+- Netlify
+
+- AWS
+- Zeit
+- Netlify
+- TestFlight
+
+Communication?
+@css/purple.css
+
+- Slack
+- Email
+- Trello
+
+Easy
+
+For Philips....
+
+Source Control?
+@css/purple.css
+
+- TFS
+
+- TFS
+- Bitbucket
+
+- TFS
+- Bitbucket
+- Gitlab
+
+- TFS
+- Bitbucket
+- Gitlab
+- SVN
+
+- TFS
+- Bitbucket
+- Gitlab
+- SVN
+- IBM Synergy
+
+- TFS
+- Bitbucket
+- Gitlab
+- SVN
+- IBM Synergy
+- IBM Clearcase
+
+Wat?
+@css/yellow.css
+
+CI?
+@css/purple.css
+
+- Jenkins
+- Azure pipelines
+- Gitlab
+- Bamboo
+- TeamCity
+
+Manual build
+@css/yellow.css
+
+Wat?
+@css/yellow.css
+
+Deployment?
+@css/purple.css
+
+- IT Managed
+- CloudFoundry
+- AWS
+- Powerpoint
+- ship a laptop
+
+App Deployment?
+??????????????
+@css/yellow.css
+
+Wat?
+@css/yellow.css
+
+Communication?
+@css/purple.css
+
+- Skype
+- Email
+- Microsoft Teams
+- SharePoint
+- Yammer
+- Confluence
+- Slack
+- Custom portal
+- Powerpoint
+
+Aargh!
+
+Aaaaargh!
+
+Aaaaaaaargh!
+
+Aaaaaaaaaaargh!
+
+Aaaaaaaaaaaaargh!
+
+Aaaaaaaaaaaaaaaargh!
+
+Aaaaaaaaaaaaaaaaaaargh!
+
+Aaaaaaaaaaaaaaaaaaaaaargh!
+
+Aaaaaaaaaaaaaaaaaaaaaaaaargh!!
+
+Why can't it be simple
+## Like in
+## open source projects..
+@css/yellow.css
+
+But you continue
+
+- Finding services
+- Requesting access to services
+- Requesting access to repos
+- Configure the services
+- Start coding
+- Create lots of custom scripts
+- Setup deployments
+
+After a while
+
+You want to test the system
+
+This takes a lot of effort...
+
+And
+# you realize you are
+slow
+
+very slow
+
+very very slow
+
+very very very slow
+
+What is the difference?
+@css/green2.css
+
+Size
+@css/green2.css
+
+Legacy
+@css/green2.css
+
+Procedures
+@css/green2.css
+
+Break
+
+I started working on
+# Digital Trust
+and
+# Blockchain
+@css/orange.css
+
+You can't built trust on
+# Closed software
+@css/orange.css
+
+This was a driver to push the 
+# Open Source
+initiative further
+
 # What is Open Source?
 @css/green.css
 
@@ -224,14 +444,8 @@ to the *public*.
 
 # Who writes 
 # Open Source 
-# for Philips?
+# for LEGO?
 @css/green.css
-
-# Jeroen
-# Knoops
-  Philips Research
-  Software Concepts
-@css/orange.css
 
 # Why contributing 
 # to Open Source?
@@ -254,6 +468,10 @@ to the *public*.
 
 ### Benefits
 # Collaborations
+@css/list.css
+
+### Benefits
+# End-of-life support 
 @css/list.css
 
 ### Benefits
@@ -291,12 +509,10 @@ to the *public*.
 - Projects treat your tool as Open Source 
 @css/list.css
 
-@img/images/open.png
-
 # Why is it hard for Philips?
 @css/green.css
 
-### Why is it hard for Philips?
+###### What is so different?
 ## Legal
 @css/green.css
 
@@ -320,7 +536,7 @@ to the *public*.
 @css/green.css
 
 ###### What is so different?
-## Inner source
+## Procedures 
 @css/green.css
 
 # Good 
@@ -332,28 +548,12 @@ to the *public*.
 github.com/philips-software
 @css/white.css
 
-# Research Trial
+Started as a
+Research Trial
 @css/brown.css
 
-## Open Source Team
-  - Marcin Czenko
-  - Bart Golsteijn
-  - Ralph Holdorp
-  - Jeroen Knoops
-  - Arnold Niessen
-  - Niek Palm
-@css/brown.css
-
-## Approved by
-# CTO
-@css/brown.css
-
-## Collaborated with 
-# CAO 
-@css/brown.css
-
-# Supported by 
-# SW CoE
+Approved by
+MT
 @css/brown.css
 
 To become the best
@@ -361,36 +561,10 @@ To become the best
 in healthcare
 @css/brown.css
 
-# Open Source in 
-# Philips Today
-@css/green.css
+-====================================-
 
-@img/images/overview.png
-@css/green.css
-
-# Examples
-@css/story.css
-
-@img/images/example-cogito.png
-
-@img/images/example-infrastructure.png
-
-@img/images/example-EmbeddedInfralib.png
-
-@img/images/example-hsdp.png
-
-@img/images/example-dockerimages.png
-
-@img/images/example-interoperability.png
-
-@img/images/example-smartsleep-2.png
-
-@img/images/example-smartsleep-1.png
-
-https://github.com/philips-software/overview
-@css/green2.css
-
-@img/images/overview-github.png
+How did we
+manage that?
 
 Procedure to 
 Open Source
@@ -500,22 +674,41 @@ delivers *value*
 ### will get in trouble"
 @css/green2.css
 
-# Conclusion
+-================================================-
 
-Culture must
-change!
-@css/red.css
+Projects which do not fit
+InnerSource
 
-From *FEAR*
-@css/red.css
+A lot of the benefits of OS
+But in a large organisation
+With existing toolsets
 
-To *PRIDE*
-@css/red.css
+Everybody must have *read*
+and *fork* access to repositories.
 
-To become the best
-# software company
-in healthcare
-@css/open-source.css
+Everybody must be able to
+make *Pull Requests*.
+
+Using the methods of OS internally
+will increase the re-use.
+Make it easy for new people to start.
+Will make things easier to adjust
+and to maintain.
+
+Prevent a fork-and-forget culture
+
+or even worse
+
+Prevent the copy-past culture
+
+or even worse
+
+The Not Invented Here Syndrome.
+
+Don't focus on commodity.
+Focus on your differentiator aspects.
+
+-================================================-
 
 ## Final Thought
 # Pieter Hintjes:
@@ -533,11 +726,27 @@ who inevitably threw my work away sooner or later."
 QA
 @css/open-source.css
 
-# Let's fix an issue!
-@css/pink.css
+-===================================================================-
 
-# Who wants to volunteer?
-@css/pink.css
+What was the difference
+between the startup
+and a big company?
 
-https://github.com/philips-software/powershell-cf-api/issues/1
-@css/pink.css
+- Size
+- Legacy
+- Procedures
+
+By embracing the
+# Open Source
+principles
+
+Less Legacy
+Less Procedures
+
+Procedures change with
+Best practices of the community
+
+Legacy will die
+or gets maintained by the
+community
+

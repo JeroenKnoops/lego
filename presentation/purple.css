@@ -2,10 +2,6 @@
   background-color: purple;
   color: white;
   text-shadow: .2px .2px #234252;
-  background-image: url("/static/images/philips_open_source.png");
-  background-repeat: no-repeat;
-  background-position: right 20px bottom 20px;
-  background-size: 5%, auto;
 }
 
 .slide-SLIDENUMBER strong {
