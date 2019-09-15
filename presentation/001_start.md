@@ -750,3 +750,9 @@ Legacy will die
 or gets maintained by the
 community
 
+-==================================================-
+
+Innersource is the path to Opensource
+I disagree
+
+
