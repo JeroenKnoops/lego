@@ -1,6 +1,6 @@
-# LEGO 
-## Software Conference
-## 2019
+# LEGO® 
+# TECH SUMMIT 
+# 2019 
 @css/blue.css
 
 What
@@ -15,8 +15,8 @@ the
 
 most?
 
-WRITING 
-CODE!
+*Writing 
+Code!*
 @css/yellow.css
 
 Used
@@ -75,7 +75,7 @@ Environments
 @css/green.css
 
 Write
-CODE
+Code
 @css/green.css
 
 Build
@@ -90,8 +90,8 @@ Use
 Build artifacts
 @css/green.css
 
-Source
 Protected
+Source
 @css/green.css
 
 But...
@@ -101,10 +101,10 @@ Hidden
 cost
 @css/orange.css
 
-Maintenance
+Maintainability
 @css/red.css
 
-re-use
+Re-use
 @css/red.css
 
 Quality
@@ -117,12 +117,16 @@ Protected
 Source
 @css/green.css
 
+Internally
+Open
+@css/green.css
+
 Use 
 Build artifacts
 @css/green.css
 
 Write
-CODE
+Code
 @css/green.css
 
 Development
@@ -132,16 +136,16 @@ Environments
 Quality
 @css/orange.css
 
-re-use
+Re-use
 @css/orange.css
 
-facilitate
+Facilitate
 @css/red.css
 
 Time
 @css/red.css
 
-Maintenance
+Maintainability
 @css/red.css
 
 Adjust
@@ -173,7 +177,7 @@ new employees
 @css/green.css
 
 Public 
-exposer
+exposure
 @css/green.css
 
 Maintenance
@@ -223,13 +227,12 @@ CI?
 
 - Github Actions
 
-- Travis-ci
-
 Deployment?
 @css/purple.css
 
 - AWS
 
+- AWS
 - TestFlight
 
 Communication?
@@ -304,8 +307,12 @@ CI?
 - Bamboo
 - TeamCity
 
-Manual build
-@css/yellow.css
+- Jenkins
+- Azure pipelines
+- Gitlab
+- Bamboo
+- TeamCity
+- Manual build
 
 Wat?
 @css/yellow.css
@@ -415,7 +422,8 @@ Aaaaaaaaaaaaaaaaaaaaaargh!
 
 Aaaaaaaaaaaaaaaaaaaaaaaaargh!!
 
-Why can't it be simple
+Why can't it
+be simple
 @css/yellow.css
 
 But you continue
@@ -614,11 +622,11 @@ github.com/philips-software
 @css/white.css
 
 Started as a
-Research Trial
+Research Pilot
 @css/brown.css
 
 Approved by
-MT
+MT / CTO
 @css/brown.css
 
 To become the best
@@ -671,6 +679,10 @@ The contribution
 delivers *value*
 @css/green.css
 
+Educate and Empower
+# People
+@css/green.css
+
 @img/images/how-to-open-source-3.png
 
 @img/images/how-to-open-source-4.png
@@ -681,11 +693,11 @@ delivers *value*
 # of projects
 @css/orange.css
 
-# Supporting libraries
-# CLIs
-# docker images
-# Licence file generators
-# Addons for testing
+# - Supporting libraries
+# - CLIs
+# - Docker images
+# - Licence file generators
+# - Addons for testing
 @css/green.css
 
 # Third Party Services
@@ -761,7 +773,7 @@ Projects which do not fit
 InnerSource
 @css/brown.css
 
-A lot of the benefits of OS
+A lot of the benefits of OSS
 But in a large organisation
 With existing toolsets
 
@@ -771,60 +783,113 @@ and *fork* access to repositories.
 Everybody must be able to
 make *Pull Requests*.
 
-Using the methods of OS internally
+Using the methods of OSS internally
 will increase the re-use.
 Make it easy for new people to start.
 Will make things easier to adjust
 and to maintain.
 
-Prevent a fork-and-forget culture
+Prevent a 
+*fork-and-forget* 
+culture
+@css/orange.css
 
 or even worse
 
-Prevent the copy-past culture
+Prevent the 
+*copy-paste*
+culture
+@css/orange.css
 
 or even worse
 
-The Not Invented Here Syndrome.
+The 
+*Not Invented Here*
+Syndrome
+@css/orange.css
 
 Don't focus on commodity.
 Focus on your differentiator aspects.
 
 Conclusion
+@css/pink.css
 
 What was the difference
 between the startup
 and a big company?
+@css/pink.css
 
 - Size
+- Number of Tools
 - Legacy
 - Procedures
+@css/pink.css
 
 By embracing the
 # Open Source
 principles
+@css/pink.css
 
 Less Legacy
+@css/pink.css
 
 Less Procedures
+@css/pink.css
 
 Procedures change with
 Best practices of 
 the community
+@css/pink.css
 
 Legacy will die
 or gets maintained by the
 community
+@css/pink.css
 
 Innersource is NOT 
 the path to Opensource
+@css/pink.css
 
 OpenSource is the 
 path to Innersource
+@css/pink.css
 
 And Innersource is
 the path to happy
 Developers
+@css/pink.css
+
+Two Innersource
+Initiatives within Philips
+@css/pink.css
+
+One started from
+*Closed Source*
+principles
+@css/list.css
+
+### 24 repositories open
+@css/list.css
+
+### 24 repositories open
+If you have a license,
+granted access to the
+region and have read
+access.
+@css/list.css
+
+One started from
+*Open Source*
+principles
+@css/list.css
+
+>1000 repositories open
+@css/list.css
+
+### >1000 repositories open
+If you are on the
+Philips intranet
+@css/list.css
 
 ## Final Thought
 # Pieter Hintjes:
