@@ -90,10 +90,8 @@ Use
 Build artifacts
 @css/green.css
 
-Protected
-@css/green.css
-
 Source
+Protected
 @css/green.css
 
 But...
@@ -418,8 +416,6 @@ Aaaaaaaaaaaaaaaaaaaaaargh!
 Aaaaaaaaaaaaaaaaaaaaaaaaargh!!
 
 Why can't it be simple
-## Like in
-## open source projects..
 @css/yellow.css
 
 But you continue
@@ -454,13 +450,21 @@ What is the difference?
 Size
 @css/green2.css
 
+Number of 
+Tools
+@css/green2.css
+
 Legacy
 @css/green2.css
 
 Procedures
 @css/green2.css
 
-Break
+I wanted to work
+like that again
+
+# Open Source
+@css/green.css
 
 I started working on
 # Digital Trust
@@ -562,6 +566,7 @@ to the *public*.
 - Accelerate feedback cycle
 - Visibility in the community
 - Collaborations
+- End-of-life support 
 - Increase quality
 - External validation, see what resonates
 - Recruiting and Onboarding
@@ -620,8 +625,6 @@ To become the best
 # software company
 in healthcare
 @css/brown.css
-
--====================================-
 
 How did we
 manage that?
@@ -682,6 +685,7 @@ delivers *value*
 # CLIs
 # docker images
 # Licence file generators
+# Addons for testing
 @css/green.css
 
 # Third Party Services
@@ -696,7 +700,6 @@ delivers *value*
 @css/orange.css
 
 ## Future
-# Transfer Pilot
 # Contributions existing projects
 # Collaboration projects
 @css/green.css
@@ -734,10 +737,29 @@ delivers *value*
 ### will get in trouble"
 @css/green2.css
 
--================================================-
+Doing open source
+feels like the startup
+@css/purple.css
+
+Constrains
+@css/purple.css
+
+No or limited
+QMS
+@css/purple.css
+
+Follow community
+standards
+@css/purple.css
+
+But...
+@css/red.css
 
 Projects which do not fit
+@css/red.css
+
 InnerSource
+@css/brown.css
 
 A lot of the benefits of OS
 But in a large organisation
@@ -768,25 +790,7 @@ The Not Invented Here Syndrome.
 Don't focus on commodity.
 Focus on your differentiator aspects.
 
--================================================-
-
-## Final Thought
-# Pieter Hintjes:
-"My only professional regret was to spend years 
-of my life making *closed projects* for clients 
-who inevitably threw my work away sooner or later."
-@css/purple.css
-
-# github.com/philips-software
-## Email: jeroen.knoops@philips.com
-  Slides: http://forest.gitlab-pages.ta.philips.com/20190505-slides-open-source-bothell 
-  Slack: https://philips-software-slackin.now.sh/
-@css/blue.css
-
-QA
-@css/open-source.css
-
--===================================================================-
+Conclusion
 
 What was the difference
 between the startup
@@ -801,18 +805,39 @@ By embracing the
 principles
 
 Less Legacy
+
 Less Procedures
 
 Procedures change with
-Best practices of the community
+Best practices of 
+the community
 
 Legacy will die
 or gets maintained by the
 community
 
--==================================================-
+Innersource is NOT 
+the path to Opensource
 
-Innersource is the path to Opensource
-I disagree
+OpenSource is the 
+path to Innersource
 
+And Innersource is
+the path to happy
+Developers
 
+## Final Thought
+# Pieter Hintjes:
+"My only professional regret was to spend years 
+of my life making *closed projects* for clients 
+who inevitably threw my work away sooner or later."
+@css/purple.css
+
+# github.com/philips-software
+## Email: jeroen.knoops@philips.com
+  Slides: https://lego.jeroenknoops.now.sh
+  Slack: https://philips-software-slackin.now.sh
+@css/blue.css
+
+QA
+@css/open-source.css
