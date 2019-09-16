@@ -29,6 +29,8 @@ Healthier
 
 Educate
 
+Enjoy
+
 How
 @css/green2.css
 
@@ -209,50 +211,36 @@ Tools
 
 Startup
 
+Gynzy
+Eindhoven
+@css/blue.css
+
 Source Control
 @css/purple.css
 
 - Github
-
-- Github
-- Gitlab
 
 CI?
 @css/purple.css
 
 - Github Actions
 
-- Github Actions
-- Gitlab
-
-- Github Actions
-- Gitlab
 - Travis-ci
-
-- Github Actions
-- Gitlab
-- Travis-ci
-- Azure pipelines
 
 Deployment?
 @css/purple.css
 
 - AWS
 
-- AWS
-- Zeit
-
-- AWS
-- Zeit
-- Netlify
-
-- AWS
-- Zeit
-- Netlify
 - TestFlight
 
 Communication?
 @css/purple.css
+
+- Slack
+
+- Slack
+- Email
 
 - Slack
 - Email
@@ -299,6 +287,20 @@ CI?
 @css/purple.css
 
 - Jenkins
+
+- Jenkins
+- Azure pipelines
+
+- Jenkins
+- Azure pipelines
+- Gitlab
+
+- Jenkins
+- Azure pipelines
+- Gitlab
+- Bamboo
+
+- Jenkins
 - Azure pipelines
 - Gitlab
 - Bamboo
@@ -312,6 +314,20 @@ Wat?
 
 Deployment?
 @css/purple.css
+
+- IT Managed
+
+- IT Managed
+- CloudFoundry
+
+- IT Managed
+- CloudFoundry
+- AWS
+
+- IT Managed
+- CloudFoundry
+- AWS
+- Powerpoint
 
 - IT Managed
 - CloudFoundry
@@ -328,6 +344,50 @@ Wat?
 
 Communication?
 @css/purple.css
+
+- Skype
+
+- Skype
+- Email
+
+- Skype
+- Email
+- Microsoft Teams
+
+- Skype
+- Email
+- Microsoft Teams
+- SharePoint
+
+- Skype
+- Email
+- Microsoft Teams
+- SharePoint
+- Yammer
+
+- Skype
+- Email
+- Microsoft Teams
+- SharePoint
+- Yammer
+- Confluence
+
+- Skype
+- Email
+- Microsoft Teams
+- SharePoint
+- Yammer
+- Confluence
+- Slack
+
+- Skype
+- Email
+- Microsoft Teams
+- SharePoint
+- Yammer
+- Confluence
+- Slack
+- Custom portal
 
 - Skype
 - Email
