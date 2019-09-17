@@ -1,7 +1,7 @@
-# Lego   
+# LEGO® tech Summit - 2019   
 
 ## Purpose
-Slides for LEGO Software Conference - 2019-09-18 
+Slides for LEGO® tech Summit - 2019-09-18 
 
 ## Usage
 
@@ -20,7 +20,7 @@ Goto http://localhost:8080
 ```
 
 ### Hosted
-- [Slide on now](https://lego.jeroenknoops.now.sh/)
+- [Slide on now](https://lego-tech-summit-2019.now.sh/)
 
 ## Slide Share
 This presentation uses [Slide-serve](https://github.com/cdreier/slide-serve).

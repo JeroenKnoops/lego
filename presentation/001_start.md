@@ -1,6 +1,6 @@
 # LEGO® 
 # TECH SUMMIT 
-# 2019 
+# 2019
 @css/blue.css
 
 What
@@ -29,7 +29,7 @@ Healthier
 
 Educate
 
-Enjoy
+Fun
 
 How
 @css/green2.css
@@ -43,7 +43,7 @@ that?
 What
 @css/orange.css
 
-Method
+Methods
 @css/orange.css
 
 use?
@@ -151,14 +151,11 @@ Maintainability
 Adjust
 @css/green.css
 
-re-use
-@css/green.css
-
 Open Source
 @css/brown.css
 
 Write
-CODE
+Code
 @css/green.css
 
 Public
@@ -180,7 +177,12 @@ Public
 exposure
 @css/green.css
 
-Maintenance
+Maintainability
+@css/green.css
+
+Free 
+*Open Source*
+Tools
 @css/green.css
 
 But...
@@ -201,6 +203,8 @@ Legal?
 Jeroen
 Knoops
 @css/blue.css
+
+@img/images/philips-logo.png
 
 Philips Research
 Eindhoven
@@ -280,6 +284,14 @@ Source Control?
 - SVN
 - IBM Synergy
 - IBM Clearcase
+
+- TFS
+- Bitbucket
+- Gitlab
+- SVN
+- IBM Synergy
+- IBM Clearcase
+- Share
 
 Wat?
 @css/yellow.css
@@ -418,12 +430,10 @@ Aaaaaaaaaaaaaaaargh!
 
 Aaaaaaaaaaaaaaaaaaargh!
 
-Aaaaaaaaaaaaaaaaaaaaaargh!
-
-Aaaaaaaaaaaaaaaaaaaaaaaaargh!!
+Aaaaaaaaaaaaaaaaaaaaaargh!!
 
 Why can't it
-be simple
+be *simple*
 @css/yellow.css
 
 But you continue
@@ -442,9 +452,9 @@ You want to test the system
 
 This takes a lot of effort...
 
-And
-# you realize you are
-slow
+And you 
+realize 
+you are *slow*
 
 very slow
 
@@ -452,7 +462,8 @@ very very slow
 
 very very very slow
 
-What is the difference?
+What is the
+# difference?
 @css/green2.css
 
 Size
@@ -469,9 +480,7 @@ Procedures
 @css/green2.css
 
 I wanted to work
-like that again
-
-# Open Source
+lean again
 @css/green.css
 
 I started working on
@@ -480,7 +489,7 @@ and
 # Blockchain
 @css/orange.css
 
-You can't built trust on
+You can't build trust on
 # Closed software
 @css/orange.css
 
@@ -516,12 +525,12 @@ to the *public*.
 
 # Who writes 
 # Open Source 
-# for LEGO?
+# for LEGO®?
 @css/green.css
 
 # Why contributing 
 # to Open Source?
-@css/green.css
+@css/list.css
 
 ## Benefits
 @css/list.css
@@ -582,7 +591,8 @@ to the *public*.
 - Projects treat your tool as Open Source 
 @css/list.css
 
-# Why is it hard for Philips?
+Why is it hard for 
+# Philips?
 @css/green.css
 
 ###### What is so different?
@@ -645,6 +655,7 @@ https://github.com/philips-software/philips-howto-open-source
 
 @img/images/how-to-open-source-1.png
 
+# Internal procedures:
 https://gitlab.ta.philips.com/open-source/howto-open-source
 
 @img/images/how-to-open-source-2.png
@@ -679,15 +690,21 @@ The contribution
 delivers *value*
 @css/green.css
 
-Educate and Empower
-# People
-@css/green.css
-
 @img/images/how-to-open-source-3.png
 
 @img/images/how-to-open-source-4.png
 
 @img/images/how-to-open-source-5.png
+
+We were inspired by
+# Zalando
+https://github.com/zalando/zalando-howto-open-source
+
+# Educate 
+and 
+# Empower
+## People
+@css/green.css
 
 # Typical types
 # of projects
@@ -708,12 +725,21 @@ Educate and Empower
 # Quality tools
 @css/green.css
 
-# Future
+# Quick 
+# Approval
+# Form
+@css/green.css
+
+# Future / WIP
 @css/orange.css
 
-## Future
-# Contributions existing projects
-# Collaboration projects
+Contributions 
+# existing 
+projects
+@css/green.css
+
+Collaboration
+projects
 @css/green.css
 
 # Misconceptions
@@ -749,19 +775,25 @@ Educate and Empower
 ### will get in trouble"
 @css/green2.css
 
-Doing open source
-feels like the startup
+Doing *open source*
+feels like the *startup*
 @css/purple.css
 
-Constrains
+Constraints
 @css/purple.css
 
 No or limited
-QMS
+*QMS*
 @css/purple.css
 
-Follow community
-standards
+Follow *community
+standards*
+@css/purple.css
+
+Feels 
+# Quick
+and
+# Modern
 @css/purple.css
 
 But...
@@ -809,7 +841,7 @@ Syndrome
 @css/orange.css
 
 Don't focus on commodity.
-Focus on your differentiator aspects.
+Be differentiative.
 
 Conclusion
 @css/pink.css
@@ -830,23 +862,23 @@ By embracing the
 principles
 @css/pink.css
 
-Less Legacy
+Less *Legacy*
 @css/pink.css
 
-Less Procedures
+Less *Procedures*
 @css/pink.css
 
 Procedures change with
-Best practices of 
+*Best practices* of 
 the community
 @css/pink.css
 
-Legacy will die
-or gets maintained by the
+Legacy will *die*
+or gets *maintained* by the
 community
 @css/pink.css
 
-Innersource is NOT 
+Innersource is *NOT*
 the path to Opensource
 @css/pink.css
 
@@ -857,6 +889,9 @@ path to Innersource
 And Innersource is
 the path to happy
 Developers
+@css/pink.css
+
+Example
 @css/pink.css
 
 Two Innersource
@@ -898,11 +933,27 @@ of my life making *closed projects* for clients
 who inevitably threw my work away sooner or later."
 @css/purple.css
 
-# github.com/philips-software
+# github.com/jeroenknoops/lego
 ## Email: jeroen.knoops@philips.com
-  Slides: https://lego.jeroenknoops.now.sh
+  Slides: https://lego-tech-summit-2019.now.sh
   Slack: https://philips-software-slackin.now.sh
 @css/blue.css
 
 QA
+@css/open-source.css
+
+What about LEGO®? 
+@css/open-source.css
+
+Do you recognize
+anything?
+@css/open-source.css
+
+Do you have silos?
+@css/open-source.css
+
+The way the organization
+is setup, did it grow like
+that or is it a conscious
+decision?
 @css/open-source.css
