@@ -644,6 +644,78 @@ in healthcare
 How did we
 manage that?
 
+What needed to change?
+
+## Culture change
+@css/red.css
+
+Developers grew up
+# with open source
+Their bosses mostly not
+@css/red.css
+
+A lot of developers finally 
+# admitted they were 
+already doing open source
+@css/red.css
+
+So we need to address
+# the bosses
+@css/red.css
+
+#### How to change your company?
+## Get a team of committed people 
+## to guide the open source project.
+@css/brown.css
+
+#### How to change your company?
+## Setup simple guidelines. 
+## Take them from other 
+## open source projects.
+@css/brown.css
+
+#### How to change your company?
+## Start with minimal variation 
+## of licenses. MIT f.e.
+@css/brown.css
+
+#### How to change your company?
+## Get contracts / business impact 
+## analysis and privacy impact 
+## analysis approved...  
+### for all third party services.
+@css/brown.css
+
+#### How to change your company?
+## Start with new projects. 
+## From scratch.
+@css/brown.css
+
+#### How to change your company?
+## Start with supporting tools.
+@css/brown.css
+
+#### How to change your company?
+## Scope open source to a
+## small part of the organization.
+@css/brown.css
+
+#### How to change your company?
+## Follow community standards, 
+## not your company standards 
+@css/brown.css
+
+#### How to change your company?
+## Get higher management 
+## involved in spreading the message.
+@css/brown.css
+
+#### How to change your company?
+## Make sure Open Source gets
+## a landing page on the 
+## corporate domain
+@css/brown.css
+
 Procedure to 
 Open Source
 @css/green.css
