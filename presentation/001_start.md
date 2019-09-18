@@ -148,9 +148,6 @@ Time
 Maintainability
 @css/red.css
 
-Adjust
-@css/green.css
-
 Open Source
 @css/brown.css
 
@@ -587,19 +584,6 @@ to the *public*.
 # tool as Open Source 
 @css/list.css
 
-*Benefits*
-- Share knowledge
-- Accelerate feedback cycle
-- Visibility in the community
-- Collaborations
-- End-of-life support 
-- Increase quality
-- External validation, see what resonates
-- Recruiting and Onboarding
-- Establishing or Supporting an Open Standard 
-- Projects treat your tool as Open Source 
-@css/list.css
-
 Why is it hard for 
 # Philips?
 @css/green.css
@@ -642,6 +626,10 @@ github.com/philips-software
 
 Started as a
 Research Pilot
+@css/brown.css
+
+Open Source
+Team
 @css/brown.css
 
 Approved by
@@ -818,8 +806,11 @@ A lot of the benefits of OSS
 But in a large organisation
 With existing toolsets
 
-Everybody must have *read*
-and *fork* access to repositories.
+Everybody must have 
+# read
+and 
+# fork
+access to repositories.
 
 Everybody must be able to
 make *Pull Requests*.
@@ -869,9 +860,6 @@ and a big company?
 By embracing the
 # Open Source
 principles
-@css/pink.css
-
-Less *Legacy*
 @css/pink.css
 
 Less *Procedures*
@@ -936,7 +924,7 @@ Philips intranet
 @css/list.css
 
 ## Final Thought
-# Pieter Hintjes:
+# Pieter Hintjens:
 "My only professional regret was to spend years 
 of my life making *closed projects* for clients 
 who inevitably threw my work away sooner or later."
@@ -949,20 +937,16 @@ who inevitably threw my work away sooner or later."
 @css/blue.css
 
 QA
-@css/open-source.css
+
 
 What about LEGO®? 
-@css/open-source.css
 
 Do you recognize
 anything?
-@css/open-source.css
 
 Do you have silos?
-@css/open-source.css
 
 The way the organization
 is setup, did it grow like
 that or is it a conscious
 decision?
-@css/open-source.css
