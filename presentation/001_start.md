@@ -659,7 +659,7 @@ A lot of developers finally
 already doing open source
 @css/red.css
 
-So we need to address
+So we needed to address
 # the bosses
 @css/red.css
 
@@ -708,12 +708,6 @@ So we need to address
 #### How to change your company?
 ## Get higher management 
 ## involved in spreading the message.
-@css/brown.css
-
-#### How to change your company?
-## Make sure Open Source gets
-## a landing page on the 
-## corporate domain
 @css/brown.css
 
 Procedure to 
@@ -768,6 +762,10 @@ delivers *value*
 We were inspired by
 # Zalando
 https://github.com/zalando/zalando-howto-open-source
+
+Make sure people want
+to use your package
+###### Ryan Cutter
 
 # Educate 
 and 
@@ -857,6 +855,12 @@ No or limited
 
 Follow *community
 standards*
+@css/purple.css
+
+Make proper
+- *documentation*
+- *release notes*
+- *changelogs*
 @css/purple.css
 
 Feels 
@@ -1006,19 +1010,5 @@ who inevitably threw my work away sooner or later."
 ## Email: jeroen.knoops@philips.com
   Slides: https://lego-tech-summit-2019.now.sh
   Slack: https://philips-software-slackin.now.sh
+  Twitter: @johnnybusca
 @css/blue.css
-
-QA
-
-
-What about LEGO®? 
-
-Do you recognize
-anything?
-
-Do you have silos?
-
-The way the organization
-is setup, did it grow like
-that or is it a conscious
-decision?
